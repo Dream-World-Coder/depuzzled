@@ -412,4 +412,9 @@ On the classic board the whole search (25955 states) takes a couple of milliseco
 Always build with `-O2` (or higher). Without optimization it is much slower.
 
 > [!NOTE]
-> README was generated with claude
+> To generate an ascii game play video, first run the ./klotski -v to generate the game, then save it in a text file, eg. out/log.txt. Then you can just run this command on the same directory & record screen.
+```sh
+awk -v RS='\n\n' 'BEGIN {print "\033c"; system("sleep 2")} /\$/ {gsub(/\n/, "\n\t\t"); print "\033c\n\n\t\t" $0; system("sleep 0.15")} END {system("sleep 7")}' log.txt
+```
+
+README was generated with claude
