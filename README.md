@@ -1,5 +1,9 @@
 # depuzzled
 
+<p align="center">
+  <img src="./out/solution.gif" alt="solution gif">
+</p>
+
 A 311 byte Klotski solver in C++
 Give it a board, it finds the shortest way to slide the pieces until the big square reaches the goal.
 
