@@ -1,7 +1,7 @@
 # depuzzled
 
 <p align="center">
-  <img src="./out/solution.gif" alt="solution gif">
+  <img src="./out/play.gif" alt="code execution gif">
 </p>
 
 A 311 byte Klotski solver in C++
