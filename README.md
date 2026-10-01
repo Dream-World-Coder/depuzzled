@@ -407,4 +407,5 @@ On the classic board the whole search (25955 states) takes a couple of milliseco
 
 Always build with `-O2` (or higher). Without optimization it is much slower.
 
->[!NOTE] fyi, README was generated with claude
+> [!NOTE]
+> README was generated with claude
